@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login From</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 style="text-align: center;">Login From</h1>
+        <hr color="blue"><br>
+        <label for="user">Name:</label>
+        <input type="text" id="user" name="user" placeholder="user name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="enter your email" name="email" required><br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" placeholder="enter your password" name="pass"><br><br>
+
+        <label for="phn">Phone no:</label>
+        <br><select name="phn">
+            <option value="+880">+880</option>
+            <option value="+110" selected>+110</option>
+            <option value="+110">+110</option>
+            <option value="+230">+230</option>
+            <option value="+440">+440</option>
+            <option value="+660">+660</option>
+            <option value="+112">+112</option>
+        </select>
+
+        <input type="text" id="phn" placeholder="enter your phone no" name="phn"><br><br>
+
+        <label for="country">country:</label>
+        <input list="con" placeholder="Your country" id="country">
+        <datalist id="con">
+            <option value="Bangladesh"></option>
+            <option value="India"></option>
+            <option value="Canada"></option>
+            <option value="USA"></option>
+            <option value="Malayshia"></option>
+            <option value="Japan"></option>
+            <option value="China"></option>
+        </datalist><br><br>
+
+        Gender:
+        <label for="gen1">male</label>
+        <input type="radio" id="gen1" name="gen">
+
+        <label for="gen2">female </label>
+        <input type="radio" id="gen2" name="gen"><br><br>
+
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <label for="col">Color:</label>
+        <input type="color" id="col" name="col"><br><br>
+
+        <label for="file">Your Photo:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="checkbox" id="chk1" name="chk1">
+        <label for="chk1">I have a bike</label>
+
+        <input type="checkbox" id="chk2" name="chk2">
+        <label for="chk2">I have a byclycle</label><br><br>
+
+        <textarea name="" id="" cols="30" rows="3" placeholder="write your comment"></textarea><br>
+
+        <input type="submit" value="send"> <input type="reset">
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
